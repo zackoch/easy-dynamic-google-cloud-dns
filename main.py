@@ -83,5 +83,4 @@ if __name__ == '__main__':
             update_record(gcp_project, record['zone'], service_account_path, api_version, record['name'],
                           record['type'], record['ttl'], pub_ip, dns_ip)
         else:
-            print('already good!')
             continue

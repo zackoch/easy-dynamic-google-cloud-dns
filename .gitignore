@@ -1,0 +1,5 @@
+svc_acct.json
+config.json
+.env
+venv/
+.idea/

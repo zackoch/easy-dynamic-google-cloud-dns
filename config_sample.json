@@ -1,0 +1,15 @@
+{
+  "api_version": "v1",
+  "gcp_project": "example-project-name",
+  "service_account_path": "/path/to/svc_acct.json",
+  "ip_api": "https://api64.ipify.org",
+  "nameserver": "8.8.8.8",
+  "dns_data": [
+    {
+      "zone": "example-zone",
+      "name": "foo.bar.com",
+      "type": "A",
+      "ttl": 60
+    }
+  ]
+}

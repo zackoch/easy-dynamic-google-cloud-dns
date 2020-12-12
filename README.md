@@ -16,7 +16,7 @@ If using it as a 'Dynamic DNS' client, it will only make an api call to Google C
   * [Go to the Service Accounts page](https://console.cloud.google.com/iam-admin/serviceaccounts?_ga=2.22394878.455879836.1607718203-1945110278.1607065052)
 * Click **Select a project**, choose a project, and click **Open**.
 * Find the row of the service account that you want to create a key for. In that row, click the **More** (three dots) button, and then click **Create key**.
-* Select a *Key type* and click *Create*.
+* Select a **Key type** and click **Create**.
 
 Clicking **Create** downloads a service account key file. After you download the key file, you cannot download it again.
 
@@ -44,7 +44,9 @@ deactivate
 ### Windows
 
 ```
-You're looking at the repo, just download the zip and extract it somwhere on your computer. You'll have to figure out how to make the virtualenv though. I think it's similar to linux (py.exe -m venv venv - then do your pip install -r requirements.txt to get the modules)
+You're looking at the repo, just download the zip and extract it somwhere on your computer. 
+You'll have to figure out how to make the virtualenv though. 
+I think it's similar to linux (py.exe -m venv venv - then do your pip install -r requirements.txt to get the modules)
 ```
 
 Move the service account JSON file you downloaded somewhere in this directory or wherever just document the path to it for the next step.

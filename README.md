@@ -31,6 +31,8 @@ git clone https://github.com/zackoch/easy-dynamic-google-cloud-dns.git
 
 cd easy-dynamic-google-cloud-dns
 
+sudo apt install python3-virtualenv
+
 python3 -m venv venv
 
 source venv/bin/activate
@@ -110,7 +112,7 @@ A smarter way to use this would be to create a cron job like this:
 ```bash
 sudo crontab -e
 
-*/5 * * * * /home/meow/easy-dynamic-google-cloud-dns/venv/bin/python /home/meow/easy-dynamic-google-cloud-dns/main.py
+*/5 * * * * cd /home/meow/easy-dynamic-google-cloud-dns && /home/meow/easy-dynamic-google-cloud-dns/venv/bin/python /home/meow/easy-dynamic-google-cloud-dns/main.py
 ```
 
 You could do something similar using task scheduler in Windows if you're running it on there for some reason.
